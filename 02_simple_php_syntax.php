@@ -39,7 +39,11 @@
         echo dump(NAME) . dump(AGE) . dump(ADDRESS) . dump(HOBBIES) . dump(PET_PEEVE);
 
         //Task 5
-        /* It is my pet_peeve because for me, responses in a group chat is very imporpant, since you can only see that they have seen your message and it is actually the purpose of having a GC inside a school, sometimes, you cannot have the assurance that they get the point of your announcement of just saw my name then turned off the phone without actually reading, so a simple heart react message gives a relief to me that they have understood it at some point.
+        /* It is my pet_peeve because for me, responses in a group chat is very imporpant, 
+        since you can only see that they have seen your message and it is actually the purpose of having a GC inside a school, 
+        sometimes, you cannot have the assurance that they get the point of your announcement of just saw my name then turned off 
+        the phone without actually reading, 
+        so a simple heart react message gives a relief to me that they have understood it at some point.
         */
     ?>
 </body>
