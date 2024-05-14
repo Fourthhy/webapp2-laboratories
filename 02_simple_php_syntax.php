@@ -24,11 +24,11 @@
         //$pet_peeve = "not being able to respond in GCs for important announcements";
 
         //Task 3
-        const NAME = "John Miguel Mañabo";
-        const AGE = 21;
-        const ADDRESS = "Somehere in Cavite";
-        const HOBBIES = "Coding Reading and Gaming";
-        const PET_PEEVE = "not being able to respond in GCs for IMPORTANT announcements";
+        define('NAME', "John Miguel Mañabo");
+        define('AGE', 21);
+        define('ADDRESS', "Somehere in Cavite");
+        define('HOBBIES', "Coding Reading and Gaming");
+        define('PET_PEEVE', "not being able to respond in GCs for IMPORTANT announcements");
 
         echo "Hello, I am <b>" . NAME . "</b> <br> <b> " . AGE ."</b> Years old<br> I live at <b> " . ADDRESS . " </b> <br> Hobbies I do are <b>" . HOBBIES . "</b> <br>  and my biggest pet peeve is <b> " . PET_PEEVE . " </b> <br><br>";
 
