@@ -1,0 +1,5 @@
+If I were the Software Engineer, I assume that I handle accountability for the issues and delays since doing tasks, removing bugs and testing modules is a part of my job. I should make myself aware more of the planning chart or the Gantt Chart specifically the due dates for each task that I need to complete. In order for my code or module to be tested and discover bugs since those three (Coding, Testing, Eliminating Bugs) are essential processes in making a software.
+
+Also it is the mistake of team members that no one would not remind this poor Software Engineer for his job. The Project Manager should have regular meetings, even not daily, make it day after the other day to monitor progress for each department he/she manages, not only to see progress but to also remind teammates to be aware of their responsibilities. He should have a clear understanding that he's the one to blame whenever something bad happens in the project.
+
+To be honest, I can't think of other posibilities that the project is still in major production even after months later, going five months to be exact.
