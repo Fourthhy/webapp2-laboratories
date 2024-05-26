@@ -18,4 +18,6 @@ try {
     $e->getMessage();
 }
 
+//User "test" database that was built in with the XAMPP installation, afraid of not securing the connection if local database is used in the Submitted Activity.
+
 ?>
