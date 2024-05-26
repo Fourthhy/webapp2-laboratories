@@ -11,13 +11,21 @@ $options = [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION];
 try {
     $pdo = new PDO($dsn, $user, $password, $options);
 
-    if ($pdo) {
-        echo "Connected to $dbname databse";
-    }
-} catch (PDOException $e) {
-    $e->getMessage();
-}
+    $databaseName = "webapp2db";
+    $sql = "CREATE DATABASE $databaseName";
 
-//User "test" database that was built in with the XAMPP installation, afraid of not securing the connection if local database is used in the Submitted Activity.
+    $pdo->exec($sql);
+    echo "Created $databaseName database Successful <br>";
+
+    $dsn2 = "mysql:host=$host; dbname=$databaseName; charset=UTF8";
+    $pdo2 = new PDO($dsn2, $user, $password, $options);
+
+    if ($pdo2) {
+        echo "Connected to $databaseName database successfully";
+    }
+    
+} catch (PDOException $e) {
+    echo $e->getMessage();
+}
 
 ?>
